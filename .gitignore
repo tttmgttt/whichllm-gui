@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# 密钥 / 私密配置（不要提交任何本地凭据）
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets.*
+*.secret
+settings.json
+*.local
+
+# 界面导出的文件
+whichllm-recommend*.json
+whichllm-recommend*.md
+whichllm-recommend*.csv
+whichllm-plan*.md
+whichllm-plan*.csv
+whichllm-upgrade*.md
+whichllm-upgrade*.csv
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+*~
+~$*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
