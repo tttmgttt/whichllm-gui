@@ -3,6 +3,8 @@
 给 [`whichllm`](https://github.com/Andyyyy64/whichllm)（*Find the best LLM that runs on your hardware*）写的桌面图形界面，
 用 **Python + Tkinter** 实现，**只依赖标准库**（不需要 PyQt / CustomTkinter 等额外包）。
 
+**仓库地址**：[GitHub](https://github.com/tttmgttt/whichllm-gui)　·　[Gitee](https://gitee.com/mgdu/whichllm-gui)（国内访问更快，两个仓库内容保持同步）
+
 ```
 ┌─ whichllm 图形界面 ─────────────────────── whichllm 0.5.20 · 缓存 models.json ─┐
 │ 推荐 | 硬件 | 规划 | 升级对比 | 示例脚本 | 运行                                 │
@@ -185,3 +187,5 @@ Windows 官方 Python 安装包默认包含 tkinter；Linux 需要单独装（�
 - 本程序是 whichllm 的**界面封装**，所有推荐、显存估算、速度预测逻辑都来自 whichllm 本身，
   升级 whichllm 即可获得最新能力；界面本身不联网（联网行为全部发生在 whichllm 内部）。
 - 已按 whichllm **0.5.20** 的内部接口实现，并带有子进程降级兜底。
+- 仓库双线同步：[GitHub](https://github.com/tttmgttt/whichllm-gui) 与 [Gitee](https://gitee.com/mgdu/whichllm-gui)；
+  问题反馈或改动建议提到任意一边的 Issues 都可以，两边内容保持一致。
