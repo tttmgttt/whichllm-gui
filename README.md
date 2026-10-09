@@ -3,7 +3,7 @@
 给 [`whichllm`](https://github.com/Andyyyy64/whichllm)（*Find the best LLM that runs on your hardware*）写的桌面图形界面，
 用 **Python + Tkinter** 实现，**只依赖标准库**（不需要 PyQt / CustomTkinter 等额外包）。
 
-**仓库地址**：[GitHub](https://github.com/tttmgttt/whichllm-gui)　·　[Gitee](https://gitee.com/mgdu/whichllm-gui)（国内访问更快，两个仓库内容保持同步）
+**仓库地址**：[GitHub](https://github.com/MaxitGaGaGa/whichllm-gui)　·　[Gitee](https://gitee.com/MaxitGaGaGa/whichllm-gui)（国内访问更快，两个仓库内容保持同步）
 
 ```
 ┌─ whichllm 图形界面 ─────────────────────── whichllm 0.5.20 · 缓存 models.json ─┐
